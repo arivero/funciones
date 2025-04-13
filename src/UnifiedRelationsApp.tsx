@@ -18,11 +18,11 @@ const translations = {
     switchTo: "Cambiar idioma",
     explanation: {
       relation:
-        "En teoría de conjuntos, una relación es cualquier conjunto de pares ordenados que conecta elementos de un conjunto (A) con otro conjunto (B).",
+        "Una relación es cualquier conjunto de pares ordenados que conecta elementos de un conjunto (A) con otro conjunto (B).",
       function:
         "Una función es una relación especial donde cada elemento de A se relaciona con a lo sumo un elemento de B.",
       totalFunction:
-        "Una función total es una función donde cada elemento de A se relaciona con exactamente un elemento de B.",
+        "Una función total es una función donde todos los elementos de A se relacionan con algun elemento de B.",
       surjective: "Una función suprayectiva cubre todo el conjunto destino B.",
       bijective:
         "Una función biyectiva es tanto inyectiva como suprayectiva: cada elemento de A se relaciona con un único y distinto elemento de B, cubriendo todo B.",
@@ -47,7 +47,7 @@ const translations = {
       function:
         "A function is a special relation where each element of A is related to at most one element of B.",
       totalFunction:
-        "A total function is a function where every element of A is related to exactly one element of B.",
+        "A total function is a function where every element of A is related to some element of B.",
       surjective: "A surjective function maps onto the entire target set B.",
       bijective:
         "A bijective function is both injective and surjective—each element of A maps to a unique and distinct element of B, covering all of B.",
